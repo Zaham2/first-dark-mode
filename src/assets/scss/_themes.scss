@@ -1,0 +1,16 @@
+@use './colors' as *;
+
+html[data-theme='dark'] {
+    --background-color: #{$black};
+    --text-color: #{$white};
+}
+
+html[data-theme='light'] {
+    --background-color: #{$white};
+    --text-color: #{$black};
+}
+
+html[data-theme='gray'] {
+    --background-color: #{$gray};
+    --text-color: #{$black};
+}
